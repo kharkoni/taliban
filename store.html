@@ -1,0 +1,271 @@
+
+
+<html lang="en">
+<!-- Mirrored from ruby-softwares.com/store by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Feb 2023 17:25:06 GMT -->
+
+<head>
+ 
+
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.gif" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/store.css">
+    <script src="assets/js/icons.html"></script>
+    <style media="all" id="fa-v4-font-face"></style>
+    <script src="assets/js/scroll.html"></script>
+    <script defer="" src="assets/js/main.html"></script>
+    <script defer="" src="assets/js/cheats.html"></script>
+    <title>Talibaan - Store</title>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Talibaan - Store (Raining Background)</title>
+    
+        <!-- Favicon -->
+        <link rel="icon" href="assets/images/logo.gif" type="image/x-icon">
+    
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="assets/css/store.css">
+    
+        <!-- External Scripts -->
+        <script src="assets/js/icons.html"></script>
+        <script src="assets/js/scroll.html"></script>
+        <script defer src="assets/js/main.html"></script>
+        <script defer src="assets/js/cheats.html"></script>
+    
+        <!-- Rain Effect CSS -->
+        <style>
+            /* Background Color */
+            body {
+                margin: 0;
+                overflow: hidden;
+                background: #0a0a0a; /* Dark Night Effect */
+            }
+    
+            /* Rain Container */
+            .rain-container {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                pointer-events: none;
+            }
+    
+            /* Raindrop */
+            .raindrop {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background: rgba(173, 216, 230, 0.6); /* Light Blue Transparent */
+                animation: fall linear infinite;
+            }
+    
+            /* Rain Animation */
+            @keyframes fall {
+                0% {
+                    transform: translateY(-100vh);
+                    opacity: 0;
+                }
+                20% {
+                    opacity: 1;
+                }
+                100% {
+                    transform: translateY(100vh);
+                    opacity: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Rain Effect Container -->
+        <div class="rain-container" id="rain"></div>
+    
+        <!-- JavaScript for Rain Effect -->
+        <script>
+            function createRain() {
+                const rainContainer = document.getElementById('rain');
+                const numberOfDrops = 100; // Number of raindrops
+    
+                for (let i = 0; i < numberOfDrops; i++) {
+                    let drop = document.createElement('div');
+                    drop.classList.add('raindrop');
+                    
+                    // Random Position
+                    drop.style.left = Math.random() * 100 + "vw";
+                    drop.style.animationDuration = (Math.random() * 0.5 + 0.5) + "s"; // Vary speed
+                    drop.style.animationDelay = Math.random() * 2 + "s";
+    
+                    rainContainer.appendChild(drop);
+                }
+            }
+    
+            createRain();
+        </script>
+    
+    </body>
+    </html>
+    
+
+    
+
+
+    
+
+
+
+    
+
+
+    <style>
+        /* Default item style */
+        .item {
+            position: relative;
+            display: inline-block;
+            border-radius: 10px; /* Smooth edges */
+            overflow: hidden; /* Ensures the glow effect stays within bounds */
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        /* Glowing border effect */
+        .item::before {
+            content: "";
+            position: absolute;
+            inset: 0; /* Covers the entire box */
+            border-radius: 10px; /* Same as .item */
+            padding: 3px; /* Thickness of the glow */
+            background: linear-gradient(90deg, rgba(0, 183, 255, 0.8), rgba(0, 183, 255, 0.4)); /* Blue glow gradient */
+            -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0; /* Hidden by default */
+            transition: opacity 0.3s ease-in-out;
+        }
+    
+        /* When hovering over a box, show the glowing border */
+        .item:hover::before {
+            opacity: 1;
+        }
+    
+        /* Slight movement effect on hover */
+        .item:hover {
+            transform: translateY(-5px); /* Moves the box up slightly */
+        }
+    </style>
+    
+
+
+
+
+
+
+
+
+    
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header id="navbar" class="active">
+
+            <div class="header">
+                <div class="brand">
+                    <h1>Talibaan&trade;</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="store.html" class="nav-link wide">Store</a>
+                    <a href="status.html">Status</a>
+                    <a href="https://discord.gg/7KdswG9tfF" target="_blank">Discord</a>
+                </nav>
+            </div>
+
+
+
+
+        </header>
+        <section id="categories">
+            <div class="section_title">
+                <h1 class="first"></h1>
+                <h1 class="back">Products</h1>
+            </div>
+            <hr>
+            <div class="items">
+
+
+
+
+
+
+
+                <a class="item" href="fortnite.html" style="background-image: url(https://cdn.discordapp.com/attachments/1304614315827134475/1337838694941331516/gui.png?ex=67a8e6e0&is=67a79560&hm=8e9efaaa5f2c988059338fc2a914641f5390fad25930587163d5ec66b7848cf7&); background-size: cover; background-position: 50% center; text-decoration: none; border: none; outline: none; cursor: pointer;">
+                    <div class="about">
+                        <span class="description">Lighter Bypass</span>
+                    </div>
+                </a>
+
+                <a class="item" href="spoofer.html" style="background-image: url(https://cdn.discordapp.com/attachments/1304614315827134475/1337839182328102933/image.png?ex=67a8e754&is=67a795d4&hm=b354aaa401105a3f74a50b51dfb5bb0efdc44d04e459becfda6bdd231c4d208d&); background-size: cover; background-position: 50% center; text-decoration: none; border: none; outline: none; cursor: pointer;">
+                    <div class="about">
+                        <span class="description">HWID Spoofer</span>
+                    </div>
+                </a>
+
+                <a class="item" href="banana.html" style="background-image: url(https://cdn.discordapp.com/attachments/1304614315827134475/1337840413989408901/image.png?ex=67a8e87a&is=67a796fa&hm=c1868e584dfb773e887573ff64874d442c30d4cf03e8b96f6d834c8d3534ba5b&); background-size: cover; background-position: 50% center; text-decoration: none; border: none; outline: none; cursor: pointer;">
+                    <div class="about">
+                        <span class="description">Talibaan Cheat menu</span>
+                    </div>
+                </a>
+
+                <a class="item" href="https://susano.re/" style="background-image: url(https://cdn.discordapp.com/attachments/1304614315827134475/1337841356860690462/LinkedIn-Profile_Co_1.png?ex=67a8e95b&is=67a797db&hm=0793f54f5936284e764fe65e9e16c204fabbfe56847419c4b34c822ebd33a007&); background-size: cover; background-position: 50% center; text-decoration: none; border: none; outline: none; cursor: pointer;">
+                    <div class="about">
+                        <span class="description">Susano</span>
+                    </div>
+                </a>
+
+             
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
